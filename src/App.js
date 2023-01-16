@@ -4,6 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import './App.css';
+// min 25:44 https://www.youtube.com/watch?v=jx5hdo50a2M
 
 const App = () => {
   return (
