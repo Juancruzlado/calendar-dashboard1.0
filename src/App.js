@@ -7,6 +7,8 @@ import './App.css';
 // min 25:44 https://www.youtube.com/watch?v=jx5hdo50a2M
 
 const App = () => {
+  const activeMenu = true;
+
   return (
       <div>
         <BrowserRouter>
@@ -20,6 +22,27 @@ const App = () => {
                 </button>
               </TooltipComponent>
             </div>
+            {activeMenu ?  (
+              <div className='w-72 fixed sidebar dark:big-secondary-dark-bg bg-white'>
+                Sidebar
+              </div>
+            ) : (
+              <div className='w-0 dark:bg-secondary-dark-bg'>
+                Sidebar 
+              </div>
+            )}
+            <div className={`dark:bg-main-bg bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-72' : 'flex-2'}`}> 
+              <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full'>
+                Navbar
+              </div>
+            </div>
+              
+            <div>
+              <Routes>
+                
+              </Routes>
+            </div>
+
           </div>
         </BrowserRouter>
       </div>
