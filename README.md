@@ -30,3 +30,8 @@ Calendar with synchronization to google calendar for notifications and usability
 
 - Weekly review
 Project management -> project under projects
+
+# TODO - NOW 
+Create Documentation page in github books to accompany the dev process.
+Try to use an auto generated documentation dependency for the project. 
+Try to use good engineering and remember that i'm building this cause it's fun and useful. 
