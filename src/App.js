@@ -4,7 +4,7 @@ import { FiSettings } from 'react-icons/fi';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import './App.css';
-// min 25:44 https://www.youtube.com/watch?v=jx5hdo50a2M
+// min 43:47 https://www.youtube.com/watch?v=jx5hdo50a2M
 
 const App = () => {
   const activeMenu = true;
@@ -22,7 +22,7 @@ const App = () => {
                 </button>
               </TooltipComponent>
             </div>
-            {activeMenu ?  (
+            {activeMenu ? (
               <div className='w-72 fixed sidebar dark:big-secondary-dark-bg bg-white'>
                 Sidebar
               </div>
